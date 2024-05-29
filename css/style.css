@@ -140,6 +140,38 @@
 	animation:box_to_point 18.5s 0s,bounce 2.5s 18.5s;
 }
 
+@media (max-width: 768px) {
+    .ly-box01 {
+        width: 85px; /* Tăng kích thước */
+        height: 85px; /* Tăng kích thước */
+        border-radius: 37.5px; /* Điều chỉnh border-radius theo kích thước mới */
+    }
+}
+@media (max-width: 480px) {
+    .ly-box01 {
+        width: 100px; /* Tăng kích thước */
+        height: 100px; /* Tăng kích thước */
+        border-radius: 50px; /* Điều chỉnh border-radius theo kích thước mới */
+    }
+}
+
+@media (max-width: 480px) {
+    .fp-tableCell {
+        width: 100%;
+        padding: 0;
+    }
+
+    .fp-controlArrow.fp-prev {
+        left: 10px;
+        border-width: 20px 18px 20px 0;
+    }
+
+    .fp-controlArrow.fp-next {
+        right: 10px;
+        border-width: 20px 0 20px 18px;
+    }
+}
+
 @keyframes box_to_point{
 	0% {
 		margin-bottom:50%;

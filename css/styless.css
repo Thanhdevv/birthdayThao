@@ -451,14 +451,14 @@ a.lk2:hover {
     margin-left: 45%; /* Di chuyển velas sang trái 55% */
   }
   .button-style1 {
-    left: 1%; /* Di chuyển nút 1 sang trái 10% */
+    left: 1%;
+    top: 50%;
+     /* Di chuyển nút 1 sang trái 10% */
   }
   .button-style2 {
-    left: 45%; /* Di chuyển nút 2 sang trái 75% */
+    left: 49%; /* Di chuyển nút 2 sang trái 75% */
+    top: 50%;
   }
-  .ly-box01{
-    width: 200px;
-    height: 200px;
-  }
+  
 
 }
